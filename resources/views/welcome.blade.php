@@ -1,95 +1,156 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layout')
 
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+@section('content')
+    <div class="row justify-content-center pt-3">
+        <div class="col-12 align-self-center">
+            <div class="card border-success">
+                <div class="card-header">/bryangruneberg/$</div>
+                <div class="card-body">
+                    <h4 class="card-title">I'm Bryan. </h4>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="/images/bryan.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-10">
+                            <code>I'm the Head of Technology for the Amazee Labs Global Maintenance team.</code>
+                            <hr>
+                            <p class="card-text">
+                                On a day to day basis, I get to work alongside a team of talented, creative, and committed technologists, developers, desigers, and product owners.
+                                Together we look after a large number of (mostly) Drupal sites that come from the Amazee Labs production teams in Zurich and Austin. Our mission
+                                is to make sure that once a beautiful and fresh Drupal site has been launched, that it continues to be fresh and wonderful as time goes by.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </body>
-</html>
+    </div>
+
+    <div class="row justify-content-center pt-3">
+        <div class="col-12 align-self-center">
+            <div class="card border-success">
+                <div class="card-header">/bryangruneberg/other-projects/$</div>
+                <div class="card-body">
+                    <h4 class="card-title text-warning">Other Projects</h4>
+                    <div class="row">
+                        <div class="col">
+                            <p class="card-text">
+                                Besides my work with Amazee Labs, I am also involved with several other ventures where usually my role
+                                is business ideation, structuing, mentoring, and strategy. Mixed in is a healthy dose of coding
+                                to make ensure that I keep making things. Making stuff is important.
+                            </p>
+                            <p class="card-text">
+                                In Development:
+                            </p>
+                            <div class="list-group">
+                                <a href="#crypsonite" class="list-group-item list-group-item-action flex-column align-items-start" id="crypsonite">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Crypsonite</h5>
+                                        <span class="oi oi-star">
+                                          </span></small>
+                                    </div>
+                                    <p class="mb-1">
+                                        My personal foray into investing in traditional markets (equities, commodities, currency, etc) as well as selected
+                                        cryptocurrency markets and blockchain focused companies.
+                                    </p>
+                                </a>
+                                <a href="#garidev" class="list-group-item list-group-item-action flex-column align-items-start" id="garidev">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Garidev</h5>
+                                        <span class="oi oi-star">
+                                          </span></small>
+                                    </div>
+                                    <p class="mb-1">
+                                        A technology consultancy under active development.
+                                    </p>
+                                </a>
+                                <a href="/jiracat" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">JIRACat</h5>
+                                        <span class="oi oi-link-intact">
+                                          </span></small>
+                                    </div>
+                                    <p class="mb-1">
+                                        A UNIX-style CLI tool designed to make daily life with JIRA more unixy.
+                                    </p>
+                                </a>
+                                <a href="http://www.thriveacademy.co.za/" target="_new" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Thrive Academy</h5>
+                                        <span class="oi oi-external-link">
+                                          </span></small>
+                                    </div>
+                                    <p class="mb-1">
+                                        Thrive Academy is a centre that offers individualised educational opportunities ranging from one on one tutoring, homeschool subject lessons, group tutorials and workshops.
+                                    </p>
+                                </a>
+                                <a href="http://www.workshoporange.co.uk/" target="_new" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Workshop Orange</h5>
+                                        <span class="oi oi-external-link">
+                                          </span></small>
+                                    </div>
+                                    <p class="mb-1">
+                                        Workshop Orange is a micro-incubator for SAAS projects that I am building with other coders, designers, and entrepreneurs.
+                                        It is self-funded and the project work is artisanal in nature. Labours of love, through to entrepreneurial opportunity.
+                                    </p>
+                                </a>
+                            </div>
+                            <hr>
+                            <p class="card-text">
+                                Retired, resigned, pivoted
+                            </p>
+                            <div class="list-group">
+                                <a href="http://daddysdeals.co.za" target="_new" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Daddy's Deals</h5>
+                                        <span class="oi oi-external-link">
+                                          </span></small>
+                                    </div>
+                                    <p class="mb-1">
+                                       Daddy's Deals is one of the larger ecommerce stores in South Africa, focused on selling discount vouchers for both experiences and products.
+                                        As the CTO I was responsibile for strategic technical direction, as well as working with the management team to guide the business. I left
+                                        Daddy's Deals on good terms in 2017 when I migrated to the UK to enable my wife to undertake her MSc at Durham University.
+                                    </p>
+                                </a>
+                                <a href="#nimbledoo" class="list-group-item list-group-item-action flex-column align-items-start" id="nimbledoo">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Nimbledoo</h5>
+                                        <span class="oi oi-media-stop">
+                                          </span></small>
+                                    </div>
+                                    <p class="mb-1">
+                                        Nimbledoo was a Drupal Focused consultancy in Cape Town, South Africa. In 2016 we decided to pivot the venture to Perceptum Digital Solutions
+                                        but were unsuccessful in getting traction.
+                                    </p>
+                                </a>
+                                <a href="#pds" class="list-group-item list-group-item-action flex-column align-items-start" id="pds">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Perceptum Digital Solutions</h5>
+                                        <span class="oi oi-media-stop">
+                                          </span></small>
+                                    </div>
+                                    <p class="mb-1">
+                                       Out of Nimbledoo came Perceptum Digital Solutions. PDS was an attempt to provide the South African market with PHP focused development services.
+                                        Unfortunately the venture never worked out and we closed the company in 2016.
+                                    </p>
+                                </a>
+                                <a href="#pts" class="list-group-item list-group-item-action flex-column align-items-start" id="pts">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Perceptum Thought Squad</h5>
+                                        <span class="oi oi-media-stop">
+                                          </span></small>
+                                    </div>
+                                    <p class="mb-1">
+                                    Perceptum Thought Squad was a consultancy service I started while working on my degree in Political Science and Solciology in 2007.
+                                        The company grew-up into Nimbledoo, and back to Perceptum Digital Solutions.
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection

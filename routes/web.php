@@ -14,3 +14,20 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/keys', function () {
+    return view('keys');
+});
+
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/patreon', function () {
+    return view('patreon');
+});
+
+Route::get('/jiracat', function () {
+    return view('jiracat');
+});
