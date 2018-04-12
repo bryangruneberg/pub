@@ -8,8 +8,7 @@
                 <div class="card-body">
                     <h4 class="card-title">JIRACat</h4>
                     <p class="card-text">
-                        In collaboration with <a href="http://bomoko.net" target="_new">bomoko</a>, we're building an
-                        opensource CLI
+                        We're (<a href="http://github.com/bomoko/">http://github.com/bomoko/</a>) building an opensource CLI
                         tool to access JIRA in a Unix-inspired way.
                     </p>
                     <code>

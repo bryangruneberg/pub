@@ -15,9 +15,12 @@
                             <code>I'm the Head of Technology for the Amazee Labs Global Maintenance team.</code>
                             <hr>
                             <p class="card-text">
-                                On a day to day basis, I get to work alongside a team of talented, creative, and committed technologists, developers, desigers, and product owners.
-                                Together we look after a large number of (mostly) Drupal sites that come from the Amazee Labs production teams in Zurich and Austin. Our mission
-                                is to make sure that once a beautiful and fresh Drupal site has been launched, that it continues to be fresh and wonderful as time goes by.
+                                On a day-to-day basis I get to work alongside a team of talented, creative, and
+                                committed technologists, developers, desigers, and product owners.
+                                Together, we look after a large number of (mostly) Drupal sites that come from the
+                                Amazee Labs production teams in Zurich and Austin. Our mission
+                                is to make sure that once a beautiful and fresh Drupal site has been launched it
+                                continues to be wonderful as time goes by.
                             </p>
                         </div>
                     </div>
@@ -35,26 +38,31 @@
                     <div class="row">
                         <div class="col">
                             <p class="card-text">
-                                Besides my work with Amazee Labs, I am also involved with several other ventures where usually my role
-                                is business ideation, structuing, mentoring, and strategy. Mixed in is a healthy dose of coding
-                                to make ensure that I keep making things. Making stuff is important.
+                                Besides my work with Amazee Labs I am also involved in several other ventures where my
+                                roles
+                                include business ideation, structure, strategy, founder mentoring, coding, and DevOps.
                             </p>
                             <p class="card-text">
-                                In Development:
+                                In development:
                             </p>
                             <div class="list-group">
-                                <a href="#crypsonite" class="list-group-item list-group-item-action flex-column align-items-start" id="crypsonite">
+                                <a href="#crypsonite"
+                                   class="list-group-item list-group-item-action flex-column align-items-start"
+                                   id="crypsonite">
                                     <div class="d-flex w-100 justify-content-between">
                                         <h5 class="mb-1">Crypsonite</h5>
                                         <span class="oi oi-star">
                                           </span></small>
                                     </div>
                                     <p class="mb-1">
-                                        My personal foray into investing in traditional markets (equities, commodities, currency, etc) as well as selected
-                                        cryptocurrency markets and blockchain focused companies.
+                                        My personal foray into investing in traditional markets (equities, commodities,
+                                        currency, etc) as well as selected
+                                        cryptocurrency markets and blockchain-focused companies.
                                     </p>
                                 </a>
-                                <a href="#garidev" class="list-group-item list-group-item-action flex-column align-items-start" id="garidev">
+                                <a href="#garidev"
+                                   class="list-group-item list-group-item-action flex-column align-items-start"
+                                   id="garidev">
                                     <div class="d-flex w-100 justify-content-between">
                                         <h5 class="mb-1">Garidev</h5>
                                         <span class="oi oi-star">
@@ -64,7 +72,8 @@
                                         A technology consultancy under active development.
                                     </p>
                                 </a>
-                                <a href="/jiracat" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <a href="/jiracat"
+                                   class="list-group-item list-group-item-action flex-column align-items-start">
                                     <div class="d-flex w-100 justify-content-between">
                                         <h5 class="mb-1">JIRACat</h5>
                                         <span class="oi oi-link-intact">
@@ -74,25 +83,32 @@
                                         A UNIX-style CLI tool designed to make daily life with JIRA more unixy.
                                     </p>
                                 </a>
-                                <a href="http://www.thriveacademy.co.za/" target="_new" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <a href="http://www.thriveacademy.co.za/" target="_new"
+                                   class="list-group-item list-group-item-action flex-column align-items-start">
                                     <div class="d-flex w-100 justify-content-between">
                                         <h5 class="mb-1">Thrive Academy</h5>
                                         <span class="oi oi-external-link">
                                           </span></small>
                                     </div>
                                     <p class="mb-1">
-                                        Thrive Academy is a centre that offers individualised educational opportunities ranging from one on one tutoring, homeschool subject lessons, group tutorials and workshops.
+                                        Thrive Academy is a centre that offers individualised educational opportunities
+                                        for primary and secondary school learners, ranging
+                                        from one-on-one tutoring and homeschool subject lessons to group tutorials and
+                                        workshops.
                                     </p>
                                 </a>
-                                <a href="http://www.workshoporange.co.uk/" target="_new" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <a href="http://www.workshoporange.co.uk/" target="_new"
+                                   class="list-group-item list-group-item-action flex-column align-items-start">
                                     <div class="d-flex w-100 justify-content-between">
                                         <h5 class="mb-1">Workshop Orange</h5>
                                         <span class="oi oi-external-link">
                                           </span></small>
                                     </div>
                                     <p class="mb-1">
-                                        Workshop Orange is a micro-incubator for SAAS projects that I am building with other coders, designers, and entrepreneurs.
-                                        It is self-funded and the project work is artisanal in nature. Labours of love, through to entrepreneurial opportunity.
+                                        Workshop Orange is a micro-incubator for SAAS projects that I am building with
+                                        other coders, designers, and entrepreneurs.
+                                        It is self-funded and the project work is artisanal in nature. Labours of love,
+                                        through to entrepreneurial opportunities.
                                     </p>
                                 </a>
                             </div>
@@ -101,49 +117,61 @@
                                 Retired, resigned, pivoted
                             </p>
                             <div class="list-group">
-                                <a href="http://daddysdeals.co.za" target="_new" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <a href="http://daddysdeals.co.za" target="_new"
+                                   class="list-group-item list-group-item-action flex-column align-items-start">
                                     <div class="d-flex w-100 justify-content-between">
                                         <h5 class="mb-1">Daddy's Deals</h5>
                                         <span class="oi oi-external-link">
                                           </span></small>
                                     </div>
                                     <p class="mb-1">
-                                       Daddy's Deals is one of the larger ecommerce stores in South Africa, focused on selling discount vouchers for both experiences and products.
-                                        As the CTO I was responsibile for strategic technical direction, as well as working with the management team to guide the business. I left
-                                        Daddy's Deals on good terms in 2017 when I migrated to the UK to enable my wife to undertake her MSc at Durham University.
+                                        Daddy's Deals is one of the larger ecommerce stores in South Africa, focused on
+                                        selling discount vouchers for both experiences and products.
+                                        As the CTO I was responsibile for strategic technical direction as well as
+                                        working with the management team to guide the business. I left
+                                        Daddy's Deals on good terms in 2017 when I migrated to the UK.
                                     </p>
                                 </a>
-                                <a href="#nimbledoo" class="list-group-item list-group-item-action flex-column align-items-start" id="nimbledoo">
+                                <a href="#nimbledoo"
+                                   class="list-group-item list-group-item-action flex-column align-items-start"
+                                   id="nimbledoo">
                                     <div class="d-flex w-100 justify-content-between">
                                         <h5 class="mb-1">Nimbledoo</h5>
                                         <span class="oi oi-media-stop">
                                           </span></small>
                                     </div>
                                     <p class="mb-1">
-                                        Nimbledoo was a Drupal Focused consultancy in Cape Town, South Africa. In 2016 we decided to pivot the venture to Perceptum Digital Solutions
-                                        but were unsuccessful in getting traction.
+                                        Nimbledoo was a Drupal-focused consultancy in Cape Town, South Africa. In 2016
+                                        pivoted the venture into Perceptum Digital Solutions
+                                        but were unable to gain traction.
                                     </p>
                                 </a>
-                                <a href="#pds" class="list-group-item list-group-item-action flex-column align-items-start" id="pds">
+                                <a href="#pds"
+                                   class="list-group-item list-group-item-action flex-column align-items-start"
+                                   id="pds">
                                     <div class="d-flex w-100 justify-content-between">
                                         <h5 class="mb-1">Perceptum Digital Solutions</h5>
                                         <span class="oi oi-media-stop">
                                           </span></small>
                                     </div>
                                     <p class="mb-1">
-                                       Out of Nimbledoo came Perceptum Digital Solutions. PDS was an attempt to provide the South African market with PHP focused development services.
-                                        Unfortunately the venture never worked out and we closed the company in 2016.
+                                        Out of Nimbledoo came Perceptum Digital Solutions. PDS was an attempt to provide
+                                        the South African market with PHP-focused development services.
+                                        The venture never worked out and we closed the company in 2016.
                                     </p>
                                 </a>
-                                <a href="#pts" class="list-group-item list-group-item-action flex-column align-items-start" id="pts">
+                                <a href="#pts"
+                                   class="list-group-item list-group-item-action flex-column align-items-start"
+                                   id="pts">
                                     <div class="d-flex w-100 justify-content-between">
                                         <h5 class="mb-1">Perceptum Thought Squad</h5>
                                         <span class="oi oi-media-stop">
                                           </span></small>
                                     </div>
                                     <p class="mb-1">
-                                    Perceptum Thought Squad was a consultancy service I started while working on my degree in Political Science and Solciology in 2007.
-                                        The company grew-up into Nimbledoo, and back to Perceptum Digital Solutions.
+                                        Perceptum Thought Squad was a consultancy service I started while working on my
+                                        degree in Political Science and Sociology in 2007.
+                                        The company grew into Nimbledoo and later back to Perceptum Digital Solutions.
                                     </p>
                                 </a>
                             </div>

@@ -52,9 +52,6 @@
                 <a class="nav-link" href="/keys">Keys</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/patreon">Patreon</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="/contact">Contact</a>
             </li>
             <li class="nav-item">

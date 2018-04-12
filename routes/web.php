@@ -24,9 +24,6 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/patreon', function () {
-    return view('patreon');
-});
 
 Route::get('/jiracat', function () {
     return view('jiracat');
