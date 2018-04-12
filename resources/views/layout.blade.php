@@ -12,7 +12,9 @@
     <!-- Open Iconic -->
     <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>
+        @yield('page-title')
+    </title>
 </head>
 <style>
     body, html {
@@ -52,10 +54,13 @@
                 <a class="nav-link" href="/keys">Keys</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact</a>
+                <a class="nav-link" href="/twittering-machines">Twittering Machines</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/jiracat">JIRACat</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
             </li>
         </ul>
         <div class="my-2 my-lg-0">

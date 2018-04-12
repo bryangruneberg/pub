@@ -28,3 +28,7 @@ Route::get('/contact', function () {
 Route::get('/jiracat', function () {
     return view('jiracat');
 });
+
+Route::get('/twittering-machines', function () {
+    return view('twittering-machines');
+});

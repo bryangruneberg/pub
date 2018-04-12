@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('page-title','JIRACat')
+
 @section('content')
     <div class="row justify-content-center pt-3" id="jiracat">
         <div class="col-12 align-self-center">

@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('page-title','Bryan Gruneberg')
+
 @section('content')
     <div class="row justify-content-center pt-3">
         <div class="col-12 align-self-center">
