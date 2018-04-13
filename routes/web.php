@@ -11,6 +11,17 @@
 |
 */
 
+
+Auth::routes();
+
+// redirect from register page to home page
+Route::get('/register', function () {
+    return redirect('/');
+});
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -32,3 +43,5 @@ Route::get('/jiracat', function () {
 Route::get('/twittering-machines', function () {
     return view('twittering-machines');
 });
+
+Route::resource('bleats', 'BleatController');

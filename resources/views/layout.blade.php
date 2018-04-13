@@ -62,6 +62,21 @@
             <li class="nav-item">
                 <a class="nav-link" href="/contact">Contact</a>
             </li>
+            <li>
+                @guest
+                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                @else
+                    <a class="nav-link" href="{{ route('logout') }}"
+                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                        {{ __('Logout') }}
+                    </a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
+                    @endguest
+            </li>
         </ul>
         <div class="my-2 my-lg-0">
             <a href="https://www.linkedin.com/in/bryangruneberg/" target="_new"><img
