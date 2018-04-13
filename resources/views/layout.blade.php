@@ -62,6 +62,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="/contact">Contact</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/bleats">Bleats</a>
+            </li>
             <li>
                 @guest
                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>

@@ -25,7 +25,7 @@
 
     @foreach($bleats as $bleat)
         <div class="row justify-content-center pt-3">
-            <div class="col-4 align-self-center">
+            <div class="col-5 align-self-center">
                 <div class="card mb-3">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
@@ -33,6 +33,10 @@
                                 @foreach($bleat->pictures as $pic)
                                     <div class="carousel-item active">
                                         <img class="d-block w-100" src="{{ $pic->uri }}">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>{{ $pic->caption }}</h5>
+                                            <p>{{ $pic->location }}</p>
+                                        </div>
                                     </div>
                                 @endforeach
                             </div>
@@ -44,16 +48,11 @@
                             {{ $bleat->bleat }}
                         </p>
                     </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
-                    </ul>
-                    <div class="card-body">
-                        @foreach($bleat->)
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
-                    </div>
+                    @if($bleat->link)
+                        <div class="card-body">
+                            <a href="{{ $bleat->link }}" class="card-link">{{ $bleat->link }}</a>
+                        </div>
+                    @endif
                     <div class="card-footer text-muted">
                         {{ $bleat->created_at }}
                     </div>
