@@ -33,5 +33,11 @@
     @endif
     <div class="card-footer text-muted">
         {{ $bleat->created_at }}
+        <div class="float-right">
+            <a href="/bleats/{{ $bleat->id }}" target="_new" class="text-primary"><span class="oi oi-external-link"></span></a>
+            @auth
+                <a href="/bleats/{{ $bleat->id }}/edit" class="text-primary"><span class="oi oi-wrench"></span></a>
+            @endauth
+        </div>
     </div>
 </div>

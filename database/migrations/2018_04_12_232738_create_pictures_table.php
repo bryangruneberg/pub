@@ -25,6 +25,8 @@ class CreatePicturesTable extends Migration
             $table->text("caption")->nullable();
             $table->text("location")->nullable();
 
+            $table->boolean("published")->default(FALSE);
+
             $table->integer("bleat_id")->unsigned()->nullable();
 
             $table->timestamps();

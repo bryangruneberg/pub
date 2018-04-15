@@ -15,4 +15,9 @@ class Bleat extends Model
     {
         return $this->hasMany(Picture::class);
     }
+
+    public function links()
+    {
+        return $this->hasMany(Link::class);
+    }
 }
