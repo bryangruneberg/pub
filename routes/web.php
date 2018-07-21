@@ -40,6 +40,10 @@ Route::get('/jiracat', function () {
     return view('jiracat');
 });
 
+Route::get('/laragoon', function () {
+    return view('laragoon');
+});
+
 Route::get('/twittering-machines', function () {
     return view('twittering-machines');
 });

@@ -57,6 +57,9 @@
                 <a class="nav-link" href="/twittering-machines">Twittering Machines</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="/laragoon">Laragoon</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="/jiracat">JIRACat</a>
             </li>
             <li class="nav-item">
