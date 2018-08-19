@@ -8,7 +8,7 @@ class Bleat extends Model
 {
     protected $fillable = [
         'bleat',
-        'picture_id'
+        'link',
     ];
 
     public function pictures()

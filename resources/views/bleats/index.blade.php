@@ -10,15 +10,19 @@
     <div class="row justify-content-center pt-3">
         <div class="col-12 align-self-center">
             <form method="GET">
-                <input type="submit" name="type" value="all" class="btn btn-@if($type == "all" || !$type)primary @else secondary @endif">
-                <input type="submit" name="type" value="pictures" class="btn btn-@if($type == "pictures")primary @else secondary @endif">
-
-                <div class="float-right">
-                    <label class="form-check-label">
-                        <input class="form-check-input" type="checkbox" name="published" value="1" @if($published) checked @endif>
-                        Published
-                    </label>
-                </div>
+                <input type="submit" name="type" value="all"
+                       class="btn btn-@if($type == "all" || !$type)primary @else secondary @endif">
+                <input type="submit" name="type" value="pictures"
+                       class="btn btn-@if($type == "pictures")primary @else secondary @endif">
+                @auth
+                    <div class="float-right">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="published" value="1"
+                                   @if($published) checked @endif>
+                            Published
+                        </label>
+                    </div>
+                @endauth
             </form>
         </div>
     </div>

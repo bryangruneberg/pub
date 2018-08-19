@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Bleat;
+use App\Picture;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Validator;
 
 class BleatController extends Controller
 {
@@ -30,14 +32,36 @@ class BleatController extends Controller
         return view('bleats.index', ['bleats' => $bleats, 'published' => $published, 'type' => $type]);
     }
 
-    public function create()
+    public function create(Request $request)
     {
+        $unattachedPictures = Picture::whereNull('bleat_id')->get();
 
+        return view('bleats.create', ['unattachedPictures' => $unattachedPictures]);
     }
 
     public function store(Request $request)
     {
+        $validatedData = Validator::make($request->all(), [
+            'bleat' => 'required|max:255',
+            'link' => 'nullable|URL',
+        ], [
+            'link.u_r_l' => 'Link format is invalid',
+        ])->validate();
 
+        $bleat = new Bleat;
+        $bleat->fill($validatedData);
+        $bleat->save();
+
+        $validatedData['published'] = $request->get('published');
+        if($request->get('pictures'))
+        {
+            foreach($request->get('pictures') as $pid)
+            {
+                $picture = Picture::find($pid);
+                $picture->bleat_id = $bleat->id;
+                $picture->save();
+            }
+        }
     }
 
     public function show(Bleat $bleat)
@@ -66,4 +90,5 @@ class BleatController extends Controller
 
         return redirect("/bleat/" . $bleat->id);
     }
+
 }

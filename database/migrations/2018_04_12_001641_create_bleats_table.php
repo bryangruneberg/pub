@@ -18,6 +18,7 @@ class CreateBleatsTable extends Migration
             $table->string("bleat", 400);
 
             $table->boolean("published")->default(FALSE);
+            $table->string("link")->nullable();
 
             $table->timestamps();
         });

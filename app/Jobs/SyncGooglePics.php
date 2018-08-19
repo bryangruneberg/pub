@@ -66,12 +66,12 @@ class SyncGooglePics implements ShouldQueue
                     $pic->uri = $uri;
                     $pic->save();
 
-                    $bleat = $pic->bleat;
-                    if(!$bleat) {
-                        $bleat = new Bleat(['bleat' => $filename]);
-                        $bleat->save();
-                        $bleat->pictures()->save($pic);
-                    }
+     //               $bleat = $pic->bleat;
+//                    if(!$bleat) {
+ //                       $bleat = new Bleat(['bleat' => $filename]);
+  //                      $bleat->save();
+   //                     $bleat->pictures()->save($pic);
+    //                }
                 }
             }
         }
