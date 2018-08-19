@@ -69,9 +69,7 @@
                 <a class="nav-link" href="/toots">Toots</a>
             </li>
             <li>
-                @guest
-                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                @else
+                @auth
                     <a class="nav-link" href="{{ route('logout') }}"
                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -81,7 +79,7 @@
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                         @csrf
                     </form>
-                    @endguest
+                @endauth
             </li>
         </ul>
         <div class="my-2 my-lg-0">

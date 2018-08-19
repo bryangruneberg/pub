@@ -88,6 +88,14 @@
                                     </span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <a href="https://fosstodon.org/@bryangruneberg">Mastodon - @bryangruneberg@fosstodon.org</a>
+                                    <span class="badge badge-pill">
+                                        <a href="https://fosstodon.org/@bryangruneberg">
+                                            #
+                                        </a>
+                                    </span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
                                     IRC - Freenode: bryangruneberg
                                     <span class="badge badge-pill">
                                           <span class="oi oi-chat"></span>
