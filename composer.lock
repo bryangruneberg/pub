@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "eec480b7f6927e385dcd1c79adf3c673",
+    "content-hash": "4ca8462852ad17951c17224b59c917e1",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -85,6 +85,67 @@
                 "sdk"
             ],
             "time": "2018-04-10T22:11:31+00:00"
+        },
+        {
+            "name": "bryangruneberg/laragoon",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bryangruneberg/laragoon.git",
+                "reference": "c03a2cead73a24ba385bc13ec9b969d00bb68bc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bryangruneberg/laragoon/zipball/c03a2cead73a24ba385bc13ec9b969d00bb68bc1",
+                "reference": "c03a2cead73a24ba385bc13ec9b969d00bb68bc1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Bryangruneberg\\Laragoon\\LaragoonServiceProvider"
+                    ],
+                    "aliases": {
+                        "Laragoon": "Bryangruneberg\\Laragoon\\LaragoonFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Bryangruneberg\\Laragoon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Blaize Kaye",
+                    "email": "blaize.kaye@gmail.com"
+                },
+                {
+                    "name": "Bryan Gruneberg",
+                    "email": "hello@bryangruneberg.com"
+                }
+            ],
+            "description": "The Laragoon utility package",
+            "homepage": "https://laragoon.io",
+            "keywords": [
+                "amazee",
+                "amazee.io",
+                "console",
+                "deploy",
+                "devops",
+                "docker",
+                "lagoon",
+                "laravel"
+            ],
+            "time": "2018-07-21T01:35:09+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3354,7 +3415,7 @@
             ],
             "authors": [
                 {
-                    "name": "Padraic Brady",
+                    "name": "Pádraic Brady",
                     "email": "padraic.brady@gmail.com",
                     "homepage": "http://blog.astrumfutura.com"
                 },
