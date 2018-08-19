@@ -66,7 +66,7 @@
                 <a class="nav-link" href="/contact">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/bleats">Bleats</a>
+                <a class="nav-link" href="/toots">Toots</a>
             </li>
             <li>
                 @guest

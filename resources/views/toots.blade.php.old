@@ -1,0 +1,33 @@
+@extends('layout')
+
+@section('page-title','Toots')
+
+@section('content')
+    <div class="row justify-content-center pt-3" id="toots">
+        <div class="col-12 align-self-center">
+            @foreach ($items as $item)
+            <div class="card border-success">
+                <div class="card-header">
+                   <a href="{{ $item->get_permalink() }}" target="_new">{{ $item->get_permalink() }}</a>
+                </div>
+                <div class="card-body">
+                    <div class="card-text">
+                        <div class="item">
+                          <p>{!! $item->get_description() !!}</p>
+@foreach ($item->get_enclosures() as $enclosure)
+@if($enclosure->get_link())
+<img class="d-block w-100" src="{{ $enclosure->get_link() }}">
+                            <div class="carousel-caption d-none d-md-block"
+                                 style="background-color: rgba(0, 0, 0, 0.4);">
+                            </div>
+@endif
+@endforeach
+                          <p><small>Posted on {{ $item->get_date('j F Y | g:i a') }}</small></p>
+                        </div>
+                   </div>
+                </div>
+            </div>
+            @endforeach
+        </div>
+    </div>
+@endsection

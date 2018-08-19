@@ -48,4 +48,14 @@ Route::get('/twittering-machines', function () {
     return view('twittering-machines');
 });
 
-Route::resource('bleats', 'BleatController');
+Route::get('/toots', function () {
+    $feed = Feeds::make('https://fosstodon.org/@bryangruneberg.atom');
+
+    $data = array(
+      'title'     => $feed->get_title(),
+      'permalink' => $feed->get_permalink(),
+      'items'     => $feed->get_items(),
+    );
+
+    return View::make('toots', $data);
+});
