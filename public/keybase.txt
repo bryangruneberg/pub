@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/bryangruneberg
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bryangruneberg.com
+  * I am bryangruneberg (https://keybase.io/bryangruneberg) on keybase.
+  * I have a public key ASB-23h-Cs6ANhOSmHYKo2Yo36DcorphmbbNAcvfxnqjaQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101ec3160a6fae744b8f0d7f7e580ef653e36beb61ea343b6b9f5eef38443f82c690a",
+      "host": "keybase.io",
+      "kid": "01207edb787e0ace8036139298760aa36628dfa0dca2ba6199b6cd01cbdfc67aa3690a",
+      "uid": "5f3a5ae773779519270d4ad21bd6cf19",
+      "username": "bryangruneberg"
+    },
+    "merkle_root": {
+      "ctime": 1534925718,
+      "hash": "84f795bcdfd9b5e584766ba72fd798a20d56797c58aadff6a7f9c124ab06930d297f48dc8f1932836aa93738a5365a05d7a9782d9ae0ae96718a5525e22c8480",
+      "hash_meta": "1905854e2289145a3da50a23b4158b553eef41e1f721677a988b7710bd9fcec4",
+      "seqno": 3497882
+    },
+    "service": {
+      "entropy": "kgmTnYsGAanD1E5QGSMaWCVI",
+      "hostname": "bryangruneberg.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.5.0"
+  },
+  "ctime": 1534925739,
+  "expire_in": 504576000,
+  "prev": "6833d95c4eeb1369ed1b3838889afba7adffc3cd5606eb4298924493ecc986b8",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgftt4fgrOgDYTkph2CqNmKN+g3KK6YZm2zQHL38Z6o2kKp3BheWxvYWTESpcCCsQgaDPZXE7rE2ntGzg4iJr7p63/w81WButCmJJEk+zJhrjEILdgXJ2vo/A0P+VisxDfAEEADZseqBeK+h5qzUGJVRTSAgHCo3NpZ8RAmnhGAC78z+W2wQ4977HJW4UJaTTyz4TP/jpeZ4rbyUswChqFoAmD8vXYWfLgjVej4caZRpCIo01g/wt/Yi1RDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMgBtknWAMqAEseuI6OeQbX5l35PXXdpdS7Uofm58gwko3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bryangruneberg
+
+==================================================================
